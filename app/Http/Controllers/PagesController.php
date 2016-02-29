@@ -16,7 +16,15 @@ class PagesController extends Controller
      */
     public function index()
     {
-        $employee = Employee::find(1)->get();
-        return view('pages/home')->with($employee);
+        return view('pages.home');
+    }
+
+    /**
+     * Prototype view
+     * @return Illuminate\View\View
+     */
+    public function proto()
+    {
+        return view('pages.proto');
     }
 }
