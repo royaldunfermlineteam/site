@@ -2,10 +2,9 @@
 
 /** Web Routes */
 Route::group(['middleware' => ['web']], function () {
-    
+
     /** Pages */
     Route::get('/', 'PagesController@index');
-    Route::get('proto', 'PagesController@proto');
 
     /** Past group */
     Route::group(['prefix' => 'past'], function() {
