@@ -11,4 +11,15 @@ Royal Dunfermline Tombs
 
 </div>
 
+<div class="container">
+  <div class="row">
+    Past
+  </div>
+  <div class="row">
+    Present
+  </div>
+  <div class="row">
+    Future
+  </div>
+</div>
 @endsection

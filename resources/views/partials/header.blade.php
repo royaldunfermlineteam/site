@@ -1,11 +1,11 @@
-<header class="">
+<header>
 	<div class="container">
 		<div class="row ">
-
-			<div class="col-sm-4 Logo__container">
-				<img src="/images/logo-main.png" alt="Royal Dunfermline Logo">
+    	<div class="col-sm-4 Logo__container">
+        <a href="/">
+          <img src="/images/logo-main.png" alt="Royal Dunfermline Logo">
+        </a>
 			</div>
-
 		</div>
 	</div>
 	<nav class="Navbar__navbar">
