@@ -22,8 +22,8 @@
 
 </head>
 <body id="app">
-
+	@include('partials.header')
 	@yield('content')
-
+	@include('partials.footer')
 </body>
 </html>
