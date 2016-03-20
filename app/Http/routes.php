@@ -14,7 +14,6 @@ Route::group(['middleware' => ['web']], function () {
     /** Present group */
     Route::group(['prefix' => 'present'], function() {
         Route::get('/', 'PresentController@index');
-
     });
 
     /** Future group */
