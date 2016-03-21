@@ -19,12 +19,14 @@
 	<![endif]-->
 
 	<link rel="stylesheet" href="/css/app.css">
-	<link rel="stylesheet" href="/css/style.css">
-
 </head>
 <body id="app">
+
 	@include('partials.header')
 	@yield('content')
 	@include('partials.footer')
+
+	<script type="text/javascript" src="/js/main.js"></script>
+
 </body>
 </html>
