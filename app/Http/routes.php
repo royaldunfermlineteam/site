@@ -8,16 +8,26 @@ Route::group(['middleware' => ['web']], function () {
 
     /** Past group */
     Route::group(['prefix' => 'past'], function() {
-        Route::get('/', 'PastController@index');
+        Route::get('/', 'PagesController@past');
     });
 
     /** Present group */
     Route::group(['prefix' => 'present'], function() {
-        Route::get('/', 'PresentController@index');
+        Route::get('/', 'PagesController@present');
+    });
+
+    /** Present group */
+    Route::group(['prefix' => 'history'], function() {
+        Route::get('/', 'PagesController@history');
     });
 
     /** Future group */
     Route::group(['prefix' => 'future'], function() {
-        Route::get('/', 'FutureController@index');
+        Route::get('/', 'PagesController@future');
     });
+
+    Route::get('/contact', 'PagesController@contact');
+
+    Route::get('/about', 'PagesController@about');
+
 });
